@@ -1,7 +1,11 @@
 export class Cache {
-	protected maxLength: number = 3
+	protected maxLength: number
 	protected cache: any = {}
 	protected order: Array<string> = []
+
+	constructor(maxLength: number) {
+		this.maxLength = maxLength
+	}
 
 	public find(key: string): any {
 		if (!this.cache[key]) return { staus: 404, message: 'Key Not Found' }
