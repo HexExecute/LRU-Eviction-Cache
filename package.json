@@ -1,24 +1,26 @@
 {
-  "name": "lru-eviction-cache",
-  "version": "1.0.0",
-  "description": "Was recommended to make this",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HexExecute/LRU-Eviction-Cache.git"
-  },
-  "author": "Hex",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HexExecute/LRU-Eviction-Cache/issues"
-  },
-  "homepage": "https://github.com/HexExecute/LRU-Eviction-Cache#readme",
-  "dependencies": {
-    "@types/node": "^17.0.21",
-    "ts-node": "^10.5.0",
-    "typescript": "^4.5.5"
-  }
+	"name": "lru-eviction-cache",
+	"version": "1.0.0",
+	"description": "Was recommended to make this as a practice project.",
+	"main": "index.js",
+	"scripts": {
+		"start": "ts-node src/index.ts",
+		"start:prod": "node dist/index.js",
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/HexExecute/LRU-Eviction-Cache.git"
+	},
+	"author": "Hex",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/HexExecute/LRU-Eviction-Cache/issues"
+	},
+	"homepage": "https://github.com/HexExecute/LRU-Eviction-Cache#readme",
+	"dependencies": {
+		"@types/node": "^17.0.21",
+		"ts-node": "^10.5.0",
+		"typescript": "^4.5.5"
+	}
 }
